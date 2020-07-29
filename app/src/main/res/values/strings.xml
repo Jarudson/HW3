@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hw3</string>
+    <string name="date">Click here to pick a date</string>
+    <string name="name">Name</string>
+    <string name="serialNumber">Serial Number</string>
+    <string name="phonenumber">Client phone Number</string>
+    <string name="damage">Damage Description</string>
+
+    <string name="delete_question">Confirm deleting this printer</string>
+    <string name="delete_confirm">YES</string>
+    <string name="delete_cancel">NO</string>
+    <string name="delete_dialog_tag">Delete_dialog_tag </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

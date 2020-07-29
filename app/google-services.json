@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175041468355",
+    "firebase_url": "https://printer-a9752.firebaseio.com",
+    "project_id": "printer-a9752",
+    "storage_bucket": "printer-a9752.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175041468355:android:bb3c47da29144d6f264f76",
+        "android_client_info": {
+          "package_name": "com.example.hw3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175041468355-8rr5grvtjs8ia7vvbp310cn54jf66php.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hw3",
+            "certificate_hash": "b4b4bf27167c55721ef15b44f89d7402597629a6"
+          }
+        },
+        {
+          "client_id": "175041468355-bropiov74q634t5d9sidprggtbkj23jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxm_s3TgJa_-zjtTHaVcY4ismW5mRybg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175041468355-bropiov74q634t5d9sidprggtbkj23jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
