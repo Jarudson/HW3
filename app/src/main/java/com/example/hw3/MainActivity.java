@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements
                         getPrinters();
                     }
                 }
-                ((PrinterList) getSupportFragmentManager().findFragmentById(R.id.printerList)).notifyDataChange(); // czasem dziala czasem nie, nie wiem dlaczego
+                //((PrinterList) getSupportFragmentManager().findFragmentById(R.id.printerList)).notifyDataChange(); // czasem dziala czasem nie, nie wiem dlaczego
             }
 
             @Override
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements
 
     }
 
-    public static void getPrinters(){
+    public void getPrinters(){
         for(int i = 0; i < maxid; i++) {
             databaseReference = FirebaseDatabase.getInstance().getReference().child("Printer").child(Integer.toString(i+1));
             databaseReference.addValueEventListener(new ValueEventListener() {
@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity implements
                         Long datel = Long.parseLong(dateStr);
                         PrinterListContent.Printer printer = new PrinterListContent.Printer(id, name, sn, datel, number, damage);
                         PrinterListContent.PRINTERS.add(printer);
+                        ((PrinterList) getSupportFragmentManager().findFragmentById(R.id.printerList)).notifyDataChange();
                     }
                 }
                 @Override
